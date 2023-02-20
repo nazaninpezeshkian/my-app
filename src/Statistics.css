@@ -1,0 +1,121 @@
+@font-face {
+    font-family:bold ;
+    src: url(assets/Samim-Bold-FD_p30download.com.woff);
+}
+@font-face {
+    font-family:text ;
+    src: url(assets/Samim-FD_p30download.com.woff);
+}
+
+.sback{
+    margin-top: 70px;
+    height: 320px;
+    width: 100%;
+    background-image: url(https://4kia.ir/s4/img_project/37226_1530004348.jpg);
+
+    background-size:320px;
+
+}
+.sflex{
+    margin-left: 170px;
+    margin-right: 170px;
+    display: flex;
+    justify-content: space-between;
+    direction: rtl;
+}
+.number{
+    margin-top: 70px;
+    font-size: 70px;
+    font-family: bold;
+    color: #100F51;
+}
+
+.stitle{
+    margin-top: 10px;
+    font-size: 36px;
+    font-family: text;
+    color: #100F51;
+ 
+}
+
+
+@media screen and (max-width: 990px) {
+    .sflex{
+        margin-left: 30px;
+        margin-right: 30px;
+        display: flex;
+        justify-content: space-between;
+        direction: rtl;
+    }
+}
+@media screen and (max-width: 720px) {
+    .number{
+        font-size: 50px;
+        font-family: bold;
+        color: #100F51;
+    }
+    
+    .stitle{
+        font-size: 26px;
+        font-family: text;
+        color: #100F51;
+        margin-top: -30px;
+        background-color: white;
+    }
+    .sback{
+        margin-top: 70px;
+        height: 220px;
+        width: 100%;
+        background-image: url(https://4kia.ir/s4/img_project/37226_1530004348.jpg);
+    
+        background-size:320px;
+    
+    }
+   
+}
+
+@media screen and (max-width: 480px) {
+    
+        .number{
+            font-size: 30px;
+            font-family: bold;
+            color: #100F51;
+        }
+        
+        .stitle{
+            font-size: 16px;
+            font-family: text;
+            color: #100F51;
+            margin-top: -20px;
+            background-color: white;
+        }
+        .sback{
+            margin-top: 50px;
+            height: 120px;
+            width: 100%;
+            background-image: url(https://4kia.ir/s4/img_project/37226_1530004348.jpg);
+        
+            background-size:320px;
+        
+        }
+  
+}
+
+
+
+@media screen and (max-width: 400px) {
+    
+    .number{
+        font-size: 25px;
+        margin-top: 30px;
+    }
+
+        
+    .stitle{
+        font-size: 13px;
+        font-family: bold;
+        color: #100F51;
+        margin-top: -20px;
+        background-color: white;
+    }
+}

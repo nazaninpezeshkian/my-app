@@ -1,0 +1,58 @@
+.guideflex{
+    margin-left: 300px;
+    margin-right: 300px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+ 
+}
+.guidecontents{
+    display: flex;
+justify-content: start;
+    text-align: center;
+}
+.guidepic{
+    width: 70%;
+
+
+}
+.guidetext{
+font-family: bold;
+margin-top: 15px;
+
+text-align: right;
+
+
+}
+
+@media screen and (max-width: 1280px) {
+
+    .guideflex{
+        margin-left: 100px;
+        margin-right: 100px;
+        display: flex;
+        justify-content: space-between;
+     
+    }
+    }
+
+    @media screen and (max-width: 990px) {
+        .guideflex{
+            margin-top: 50px;
+            margin-left: 100px;
+            margin-right: 100px;
+            display: flex;
+            justify-content: space-between;
+         
+        }
+        
+        }
+
+        
+    @media screen and (max-width: 720px) {
+        .guideflex{
+         display: none;
+         
+        }
+        
+    }

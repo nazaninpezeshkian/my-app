@@ -1,0 +1,261 @@
+@font-face {
+    font-family:bold ;
+    src: url(assets/Samim-Bold-FD_p30download.com.woff);
+}
+@font-face {
+    font-family:text ;
+    src: url(assets/Samim-FD_p30download.com.woff);
+}
+.city{
+    margin-top: 70px;
+    text-align: center;
+    font-family: bold;
+    font-size: 32px;
+}
+.cityflex{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 170px;
+    margin-right: 170px;
+    margin-top: 30px;
+    direction: rtl;
+}
+.flexcity{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.margiinn{
+    margin-top: 80px;
+}
+.margiin{
+    margin-top: 30px;
+}
+.citytext{
+    font-size: 16px;
+    font-family: bold;
+    margin-top: 7px;
+}
+.border1{
+    width: 94px;
+    height: 40px;
+    border-radius: 30px;
+    border-style: solid;
+    border-width: thin;
+    border-color: #2F22CD;
+    text-align: center;
+    cursor: pointer;
+  
+}
+.border1:hover{
+    background-color: #d2cff1;
+}
+.border2{
+    width: 55px;
+    height: 40px;
+    border-radius: 30px;
+    border-style: solid;
+    border-width: thin;
+    border-color: #2F22CD;
+    text-align: center;
+  margin-right: 10px;
+  cursor: pointer;
+  
+}
+.border2:hover{
+    background-color: #d2cff1;
+}
+.border3{
+    width: 90px;
+    height: 40px;
+    border-radius: 30px;
+    border-style: solid;
+    border-width: thin;
+    border-color: #2F22CD;
+    text-align: center;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.border3:hover{
+    background-color: #d2cff1;
+}
+.border4{
+    width: 98px;
+    height: 40px;
+    border-radius: 30px;
+    border-style: solid;
+    border-width: thin;
+    border-color: #2F22CD;
+    text-align: center;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.border4:hover{
+    background-color: #d2cff1;
+}
+.border5{
+    width: 68px;
+    height: 40px;
+    border-radius: 30px;
+    border-style: solid;
+    border-width: thin;
+    border-color: #2F22CD;
+    text-align: center;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.border5:hover{
+    background-color: #d2cff1;
+}
+
+@media screen and (max-width: 1280px) {
+
+}
+@media screen and (max-width: 990px) {
+.cityflex{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+}
+@media screen and (max-width: 720px) {
+    .citytext{
+        font-size: 12px;
+
+    }
+    .border1{
+        width: 65px;
+        margin-right: 5px;
+      
+    }
+    .border2{
+        width: 40px;
+        margin-right: 5px;
+      
+    }
+    .border3{
+        width: 45px;
+        margin-right: 5px;
+      
+    }
+    .border4{
+        width: 65px;
+        margin-right: 5px;
+      
+    }
+    .border5{
+        width: 65px;
+        margin-right: 5px;
+     
+      
+    }
+    .map{
+        width: 350px;
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+.map{
+    display: none;
+}
+.border1{
+    width: 90px;
+    height: 40px;
+    border-radius: 30px;
+    border-style: solid;
+    border-width: thin;
+    border-color: #2F22CD;
+    text-align: center;
+    cursor: pointer;
+  
+}
+
+.border2{
+    width: 55px;
+    height: 40px;
+    border-radius: 30px;
+    border-style: solid;
+    border-width: thin;
+    border-color: #2F22CD;
+    text-align: center;
+  margin-right: 10px;
+  cursor: pointer;
+  
+}
+
+.border3{
+    width: 85px;
+    height: 40px;
+    border-radius: 30px;
+    border-style: solid;
+    border-width: thin;
+    border-color: #2F22CD;
+    text-align: center;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.border4{
+    width: 90px;
+    height: 40px;
+    border-radius: 30px;
+    border-style: solid;
+    border-width: thin;
+    border-color: #2F22CD;
+    text-align: center;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.border5{
+    width: 60px;
+    height: 40px;
+    border-radius: 30px;
+    border-style: solid;
+    border-width: thin;
+    border-color: #2F22CD;
+    text-align: center;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+
+}
+
+@media screen and (max-width: 400px) {
+    .border1{
+        width: 70px;
+        margin-right: 5px;
+      
+    }
+    .border2{
+        width: 50px;
+        margin-right: 5px;
+      
+    }
+    .border3{
+        width: 50px;
+        margin-right: 5px;
+      
+    }
+    .border4{
+        width: 70px;
+        margin-right: 5px;
+      
+    }
+    .border5{
+        width: 70px;
+        margin-right: 5px;
+     
+      
+    }
+    .cityflex{
+        margin-right: 20px;
+    }
+    .city{
+        margin-top: 70px;
+        text-align: center;
+        font-family: bold;
+        font-size: 30px;
+    }
+}

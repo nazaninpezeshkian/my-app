@@ -1,0 +1,18 @@
+@font-face {
+    font-family:bold ;
+    src: url(assets/Samim-Bold-FD_p30download.com.woff);
+}
+@font-face {
+    font-family:text ;
+    src: url(assets/Samim-FD_p30download.com.woff);
+}
+
+.align{
+    text-align: center;
+    margin-top: 40px;
+}
+.teach{
+    font-family: bold;
+    font-size: 32px;
+}
+

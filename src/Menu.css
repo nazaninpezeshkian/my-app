@@ -1,0 +1,127 @@
+@font-face {
+    font-family:bold ;
+    src: url(assets/Samim-Bold-FD_p30download.com.woff);
+}
+@font-face {
+    font-family:text ;
+    src: url(assets/Samim-FD_p30download.com.woff);
+}
+.mflex{
+    margin-right: 170px;
+    margin-left: 300px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    background-color: #100F51;
+    height: 150px;
+    direction: rtl;
+    width: 60%;
+   
+    
+}
+
+.box{
+    margin-right: 100px;
+margin-left: 100px;
+    margin-top: 42px;
+   text-align: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    background-color: white;
+    height: 75px;
+    width: 420px;
+   
+}
+.box:hover{
+    background-color:rgb(212, 212, 251);
+    transform:translateY(-2px);
+}
+.mtext{
+font-size: 32px;
+font-family: text;
+color: #100F51;
+margin-top: 8px;
+}
+
+@media screen and (max-width: 1280px) {
+    .mtext{
+        font-size: 25px;
+        font-family: text;
+        color: #100F51;
+        margin-top: 15px;
+        }
+}
+@media screen and (max-width: 990px) {
+    .mflex{
+        margin-right: 30px;
+        margin-left: 30px;
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-between;
+        border-radius: 10px;
+        background-color: #100F51;
+        height: 150px;
+        direction: rtl;
+        
+    }
+}
+@media screen and (max-width: 720px) {
+    .mflex{
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-between;
+        border-radius: 10px;
+        background-color: #100F51;
+        height: 150px;
+        direction: rtl;
+        
+    }
+    .box{
+        margin-left: 10px;
+        margin-right: 10px;
+            margin-top: 42px;
+           text-align: center;
+            justify-content: space-between;
+            border-radius: 10px;
+            background-color: white;
+            height: 75px;
+            width: 320px;
+           
+        }
+}
+
+@media screen and (max-width: 480px) {
+    .mtext{
+        font-size: 12px;
+        font-family: text;
+        color: #100F51;
+        margin-top: 15px;
+        }
+        .box{
+            margin-left: 10px;
+            margin-right: 10px;
+                margin-top: 25px;
+               text-align: center;
+                justify-content: space-between;
+                border-radius: 10px;
+                background-color: white;
+                height: 50px;
+                width: 320px;
+               
+            }
+            .mflex{
+                margin-right: 10px;
+                margin-left: 10px;
+                margin-top: 10px;
+                display: flex;
+                justify-content: space-between;
+                border-radius: 10px;
+                background-color: #100F51;
+                height: 100px;
+                direction: rtl;
+                
+            }
+}

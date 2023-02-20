@@ -1,0 +1,93 @@
+@font-face {
+    font-family:bold ;
+    src: url(assets/Samim-Bold-FD_p30download.com.woff);
+}
+@font-face {
+    font-family:text ;
+    src: url(assets/Samim-FD_p30download.com.woff);
+}
+.yourq{
+    font-size: 32px;
+    font-family: bold;
+    text-align: center;
+    margin-top: 50px;
+}
+.one{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 170px;
+    margin-right: 170px;
+  
+    box-shadow: 5px 15px 10px rgb(212, 212, 212);
+    border-radius: 10px;
+    height: 120px;
+    direction: rtl;
+}
+.explainbox{
+    margin-left: 170px;
+    margin-right: 170px;
+    height: 100px;
+    display: none;
+    text-align: justify;
+    text-justify: inter-word;
+ margin-right: 10px;
+ overflow: hidden;
+}
+.qs{
+    margin-right: 15px;
+    font-size: 32px;
+    font-family: text;
+    margin-top: 40px;
+}
+.drop{
+    margin-left: 15px;
+    width: 50px;
+    height: 50px;
+    margin-top: 45px;
+}
+
+
+@media screen and (max-width: 990px) {
+.one{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.explainbox{
+    height: 500px;
+}
+.explainbox{
+    max-height: 100px;
+    width: 100%;
+    overflow-x: hidden;
+  overflow-y: scroll;
+ }
+}
+
+
+@media screen and (max-width: 480px) {
+    .qs{
+        margin-right: 15px;
+        font-size: 20px;
+        font-family: text;
+        margin-top: 40px;
+    }
+    .explainbox{
+        max-height: 100px;
+        width: 100%;
+        overflow-x: hidden;
+      overflow-y: scroll;
+     }
+  }
+
+  @media screen and (max-width: 400px) {
+ .explainbox{
+    max-height: 100px;
+    width: 100%;
+    overflow-x: hidden;
+  overflow-y: scroll;
+ }
+ .one{
+height: 100px;
+
+}
+  }

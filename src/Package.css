@@ -1,0 +1,87 @@
+@font-face {
+    font-family:bold ;
+    src: url(assets/Samim-Bold-FD_p30download.com.woff);
+}
+@font-face {
+    font-family:text ;
+    src: url(assets/Samim-FD_p30download.com.woff);
+}
+
+.ourpackage{
+    margin-top: 60px;
+    text-align: center;
+}
+.patext{
+    font-size: 32px;
+    font-family: bold;
+}
+.pbox{
+    width: 32.5%;
+    height: 380px;
+    background-color: #F5F5F5;
+    border-radius: 10px;
+}
+.med{
+    text-align: center;
+
+}
+.baste{
+    font-size: 14px;
+    font-family:bold;
+    margin-top: 30px;
+}
+.hr{
+    width:80%;
+ margin-left: 40px;
+ margin-right: 40px;
+}
+
+.buyflex{
+    margin-left:200px;
+    display: flex;
+    justify-content: space-between;
+   margin-top: 20px;
+    direction: rtl;
+}
+.buy{
+    width: 30px;
+    height: 30px;
+}
+.buytext{
+
+    font-size: 12px;
+    font-family: text;
+    white-space: nowrap;
+    margin-top: 5px;
+  
+}
+@media screen and (max-width: 1280px) {
+
+}
+@media screen and (max-width: 990px) {
+    .pbox{
+        width: 300px;
+        height: 400px;
+        background-color: #F5F5F5;
+        border-radius: 10px;
+    }
+
+}
+@media screen and (max-width: 720px) {
+    .pbox{
+        width: 380px;
+        height: 400px;
+        background-color: #F5F5F5;
+        border-radius: 10px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .pbox{
+        margin-left: 8px;
+        width: 350px;
+        height: 400px;
+        background-color: #F5F5F5;
+        border-radius: 10px;
+    }
+}

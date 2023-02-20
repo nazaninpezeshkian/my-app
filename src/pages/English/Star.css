@@ -1,0 +1,54 @@
+.starmargins{
+    margin-top: 100px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+.starframe{
+    width: 100%;
+    height: 270px;
+    background-color: rgb(252, 239, 205);
+    border-radius: 10px;
+    text-align: center;
+}
+.startextbold{
+    font-family: bold;
+    font-size: 30px;
+
+}
+.starflex{
+    margin-left: 530px;
+    margin-right: 500px;
+    display: flex;
+    justify-content: start;
+    text-align: center;
+  
+ 
+}
+.starsize{
+    width: 18%;
+    cursor: pointer;
+}
+.startext{
+    font-family: text;
+    font-size: 30px;
+}
+@media screen and (max-width: 1280px) {
+
+    .starmargins{
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .starflex{
+        margin-left:400px;
+        margin-right: 300px;
+        display: flex;
+        justify-content: start;
+        text-align: center;
+      
+     
+    }
+    .starsize{
+        width: 13%;
+        cursor: pointer;
+    }
+    }

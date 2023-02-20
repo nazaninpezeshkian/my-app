@@ -1,0 +1,507 @@
+.back2{
+    width: 100%;
+    height: 780px;
+    background-image: url(https://advanceddermclinic.com/wp-content/uploads/2013/11/light-blue-background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 780px;
+    margin-top: 20px;
+}
+.englishmargin{
+    margin-left: 300px;
+    margin-right: 300px;
+  
+}
+.englishbold{
+
+    width: 60%;
+ 
+    font-size: 32px;
+    font-family: bold;
+
+}
+.englishframe{
+    width: 100%;
+    height: 400px;
+    border-radius: 10px;
+    background-color: rgb(3, 3, 58);
+    margin-top: 70px;
+
+}
+.frameflexenglish{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.englishpic{
+    width:100%;
+margin-top: -140px;
+}
+.englishpix1{
+    width: 40%;
+}
+.englishtext{
+    font-family: text;
+    color: white;
+    margin-right: 0px;
+    margin-top: 20px;
+    direction: rtl;
+    margin-right: 20px;
+}
+.englishflex{
+
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.frame1{
+    text-align: center;
+    font-family: bold;
+    width:28%;
+    height: 50px;
+    border-radius: 10px;
+    background-color: rgb(200, 200, 248);
+    border-style: solid;
+    border-width: thin;
+    border-color: rgb(90, 90, 250);
+    color:  rgb(90, 90, 250);
+    /* margin-right: 20px; */
+}
+.frame2{
+    text-align: center;
+    font-family: bold;
+    width: 28%;
+    height: 50px;
+    border-radius: 10px;
+    background-color: rgb(200, 200, 248);
+    border-style: solid;
+    border-width: thin;
+    border-color: rgb(90, 90, 250);
+    color:  rgb(90, 90, 250);
+    margin-right: 20px;
+}
+.todotext{
+    margin-top: 15px;
+    margin-left: 5px;
+}
+.chooselesson{
+    margin-right: 20px;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    background-color: red;
+    margin-top: 20px;
+}
+.filterflex{
+display: flex;
+justify-content: space-between;
+}
+.filtertext{
+    color: white;
+    font-family: bold;
+    white-space: nowrap;
+    margin-top: 15px;
+    margin-right: 5px;
+}
+.checkbox{
+    margin-top: 18px;
+    margin-right: 30px;
+}
+
+.chooseflex{
+    display: flex;
+justify-content: space-between;
+}
+.frame3{
+    text-align: center;
+    font-family: bold;
+    width: 400px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: white;
+    border-style: solid;
+    border-width: thin;
+    border-color:white;
+    color:  rgb(90, 90, 250);
+    margin-right: 20px;
+}
+.select{
+    width: 95%;
+    border: none;
+    margin-top: 10px;
+    outline: none;
+}
+.frame4{
+    text-align: center;
+    font-family: bold;
+    width: 62%;
+    height: 50px;
+    border-radius: 10px;
+    background-color: white;
+    border-style: solid;
+    border-width: thin;
+    border-color:white;
+    color:  rgb(90, 90, 250);
+    margin-right: 20px; 
+}
+.frame4flex{
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    justify-content:start;
+    direction: rtl;
+}
+.gender{
+    margin-top: 10px ;
+    color: rgb(0, 0, 0);
+    font-family: text;
+    white-space: nowrap;
+}
+.genderflax{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+.gendermargin{
+    margin-right: 1px;
+}
+.frame5{
+    text-align: center;
+    font-family: bold;
+    width: 30%;
+    height: 50px;
+    border-radius: 10px;
+    background-color: white;
+    border-style: solid;
+    border-width: thin;
+    border-color:white;
+    color: black;
+    /* margin-right: 20px; */}
+.offer{
+    width: 40%;
+    height: 50px;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(0, 191, 168, 1);
+    color: white;
+    font-family: bold;
+    transition: 1s;
+}
+.offer:hover{
+ transition: 1s;
+    color: rgba(0, 191, 168, 1);
+    background-color: white;
+
+
+}
+.align{
+    text-align: center;
+}
+.frameesf3{
+    text-align: center;
+    font-family: bold;
+    width: 50%;
+    height: 50px;
+    border-radius: 10px;
+    background-color: white;
+    border-style: solid;
+    border-width: thin;
+    border-color:white;
+    color:  rgb(90, 90, 250);
+    margin-right: 20px;
+}
+.frameesf4{
+    text-align: center;
+    font-family: bold;
+    width: 30%;
+    height: 50px;
+    border-radius: 10px;
+    background-color: white;
+    border-style: solid;
+    border-width: thin;
+    border-color:white;
+    color:  rgb(90, 90, 250);
+    margin-right: 20px;
+}
+@media screen and (max-width: 1280px) {
+  
+    .englishmargin{
+        margin-left: 100px;
+        margin-right: 100px;
+      
+    }
+    .guideflex{
+        margin-left: 100px;
+        margin-right: 100px;
+        display: flex;
+        justify-content: space-between;
+     
+    }
+    }
+
+    @media screen and (max-width: 990px) {
+  
+        .englishmargin{
+            margin-left: 100px;
+            margin-right: 100px;
+          
+        }
+        .englishpic{
+       display: none;
+        }
+        .englishbold{
+
+            width: 100%;
+         margin-top:0px;
+            font-size: 32px;
+            font-family: bold;
+        
+        }
+        .back2{
+            width: 100%;
+            height: 750px;
+            background-image: url(https://advanceddermclinic.com/wp-content/uploads/2013/11/light-blue-background.jpg);
+            background-repeat: no-repeat;
+            background-size: 100% 750px;
+            margin-top: 20px;
+        }
+        }
+
+        
+    @media screen and (max-width: 720px) {
+  
+        .englishmargin{
+            margin-left: 50px;
+            margin-right: 50px;
+          
+        }
+        .englishpic{
+       display: none;
+        }
+        .englishbold{
+
+            width: 100%;
+         margin-top:0px;
+            font-size: 32px;
+            font-family: bold;
+        
+        }
+        .back2{
+            width: 100%;
+            height: 800px;
+            background-image: url(https://advanceddermclinic.com/wp-content/uploads/2013/11/light-blue-background.jpg);
+            background-repeat: no-repeat;
+            background-size: 100% 800px;
+            margin-top: 20px;
+        }
+
+        .frame1{
+            margin-left: 20px; 
+            width: 38%;
+            height: 50px;
+            border-radius: 10px;
+            background-color: rgb(200, 200, 248);
+            border-style: solid;
+            border-width: thin;
+            border-color: rgb(90, 90, 250);
+            color:  rgb(90, 90, 250);
+            /* margin-right: 20px; */
+        }
+        .frame2{
+margin-left: 5px;
+            text-align: center;
+            font-family: bold;
+            width: 25%;
+            height: 50px;
+            border-radius: 10px;
+            background-color: rgb(200, 200, 248);
+            border-style: solid;
+            border-width: thin;
+            border-color: rgb(90, 90, 250);
+            color:  rgb(90, 90, 250);
+            margin-right: 0px;
+        }
+        .frameflexenglish{
+            display: flex;
+            justify-content: space-between;
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+        .englishflex{
+margin-left: 10px;
+margin-right: 10px;
+            display: flex;
+            justify-content: start;
+            margin-top: 20px;
+        }
+        .frame3{
+            text-align: center;
+            font-family: bold;
+            width: 62.5%;
+            height: 50px;
+            border-radius: 10px;
+            background-color: white;
+            border-style: solid;
+            border-width: thin;
+            border-color:white;
+            color: black;
+            /* margin-right: 20px; */}
+
+            .frame4{
+                text-align: center;
+                font-family: bold;
+                width:45%px;
+                height: 50px;
+                border-radius: 10px;
+                background-color: white;
+                border-style: solid;
+                border-width: thin;
+                border-color:white;
+                color:  rgb(90, 90, 250);
+                margin-left: 10px; 
+            }
+            .frame4flex{
+                display: flex;
+                margin-left: 10px;
+                margin-right: 10px;
+                justify-content: space-between;
+                direction: rtl;
+            }
+            .englishtext{
+                font-family: text;
+                color: white;
+         margin-right: 45px;
+                margin-top: 20px;
+                direction: rtl;
+              
+            }
+
+        }
+
+
+        
+@media screen and (max-width:480px) {
+    .englishtext{
+        font-family: text;
+        color: white;
+
+        margin-top: 20px;
+        direction: rtl;
+      
+    }
+    .englishflex{
+flex-wrap:wrap;
+text-align: right;
+direction: rtl;
+    }
+    .filterflex{
+        display: none;
+    }
+
+    
+    .frame1{
+
+        margin-left: 0px;
+        margin-right: 0px;
+
+        width: 100%;
+        height: 50px;
+        border-radius: 10px;
+        background-color: rgb(200, 200, 248);
+        border-style: solid;
+        border-width: thin;
+        border-color: rgb(90, 90, 250);
+        color:  rgb(90, 90, 250);
+        /* margin-right: 20px; */
+    }
+    .frame2{
+        margin-top: 10px;
+     
+        margin-left: 0px;
+        margin-right: 0px;
+        text-align: center;
+        font-family: bold;
+        width: 90%;
+        height: 50px;
+        border-radius: 10px;
+        background-color: rgb(200, 200, 248);
+        border-style: solid;
+        border-width: thin;
+        border-color: rgb(90, 90, 250);
+        color:  rgb(90, 90, 250);
+    
+    }
+    .frame3{
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .frame4{
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 100%;
+    
+        margin-top: 20px;
+    }
+    .frame5{
+        width: 100%;
+margin-left: 0px;
+margin-right: 0px;
+    }
+    .englishframe{
+        width: 100%;
+        height: 500px;
+        border-radius: 10px;
+        background-color: rgb(3, 3, 58);
+        margin-top: 70px;
+        text-align: center;
+    
+    }
+    .offer{
+        width: 70%;
+        height: 50px;
+        text-align: center;
+        border: none;
+        border-radius: 10px;
+        background-color: rgba(0, 191, 168, 1);
+        color: white;
+        font-family: bold;
+        transition: 1s;
+    }
+    .frame4flex{
+        width: 100%;
+        display: flex;
+        margin-left: 0px;
+        margin-right: 0px;
+        justify-content: start;
+        direction: rtl;
+    }
+    .englishbold{
+
+        width: 100%;
+     
+        font-size: 20px;
+        font-family: bold;
+    
+    }
+    .genderflax{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .gender{
+        font-size: 13px;
+        margin-top: 10px ;
+        color: rgb(0, 0, 0);
+        font-family: bold;
+    }
+    .back2{
+        width: 100%;
+        height: 900px;
+        background-image: url(https://advanceddermclinic.com/wp-content/uploads/2013/11/light-blue-background.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 900px;
+        margin-top: 20px;
+    }
+    }

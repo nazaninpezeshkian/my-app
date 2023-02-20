@@ -1,0 +1,145 @@
+@font-face {
+    font-family:bold ;
+    src: url(assets/Samim-Bold-FD_p30download.com.woff);
+}
+@font-face {
+    font-family:text ;
+    src: url(assets/Samim-FD_p30download.com.woff);
+}
+
+.tflex{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 170px;
+    margin-right: 170px;
+    direction: rtl;
+  
+}
+
+.back{
+    width: 100%;
+    height: 620px;
+    background-image: url(https://advanceddermclinic.com/wp-content/uploads/2013/11/light-blue-background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 620px;
+    margin-top: 20px;
+}
+.margin{
+    margin-top: 200px;
+    width: 48%;
+}
+
+.line{
+    font-size: 36px;
+    font-family: bold;
+    color: #100F51;
+    font-weight: bold;
+}
+.titlepic{
+    border-radius: 300px;
+    margin-top: 110px;
+}
+
+@media screen and (max-width: 1280px) {
+    .tflex{
+        display: flex;
+        justify-content: space-between;
+        margin-left: 50px;
+        margin-right: 50px;
+        direction: rtl;
+      
+    }
+    
+    .back{
+        width: 100%;
+        height: 620px;
+        background-image: url(https://advanceddermclinic.com/wp-content/uploads/2013/11/light-blue-background.jpg);
+        background-repeat: no-repeat;
+        background-size: 1519px 620px;
+        margin-top: 20px;
+    }
+
+
+}
+@media screen and (max-width: 990px) {
+
+    .line{
+        font-size: 30px;
+        font-family: bold;
+        color: #100F51;
+        font-weight: bold;
+    }
+    .titlepic{
+        width: 450px;
+        border-radius: 300px;
+        margin-top: 110px;
+    }
+    .back{
+        width: 100%;
+        height:500px;
+        background-image: url(https://advanceddermclinic.com/wp-content/uploads/2013/11/light-blue-background.jpg);
+        background-repeat: no-repeat;
+        background-size: 1519px 620px;
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width: 720px) {
+    .margin{
+        margin-top: 130px;
+        width: 50%;
+    }
+    .titlepic{
+        width: 350px;
+        border-radius: 300px;
+        margin-top: 110px;
+    }
+    
+    .line{
+        font-size: 25px;
+        font-family: bold;
+        color: #100F51;
+        font-weight: bold;
+    }
+    .back{
+        width: 100%;
+        height:450px;
+        background-image: url(https://advanceddermclinic.com/wp-content/uploads/2013/11/light-blue-background.jpg);
+        background-repeat: no-repeat;
+        background-size: 1519px 620px;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .margin{
+        margin-top: 70px;
+        width: 50%;
+    }
+    .back{
+        width: 100%;
+        height:250px;
+        background-image: url(https://advanceddermclinic.com/wp-content/uploads/2013/11/light-blue-background.jpg);
+        background-repeat: no-repeat;
+        background-size: 1519px 620px;
+        margin-top: 20px;
+    }
+    .tflex{
+        display: flex;
+        justify-content: space-between;
+        margin-left: 10px;
+        margin-right: 10px;
+        direction: rtl;
+      
+    }
+    .line{
+        font-size: 14px;
+        font-family: bold;
+        color: #100F51;
+        font-weight: bold;
+    }
+    .titlepic{
+        width: 250px;
+        border-radius: 400px;
+        margin-top:40px;
+    }
+}
