@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/lms/static/css/main.f237246d.css",
-    "main.js": "/lms/static/js/main.c96def8e.js",
-    "static/js/787.28cb0dcd.chunk.js": "/lms/static/js/787.28cb0dcd.chunk.js",
-    "static/media/ax.png": "/lms/static/media/ax.3a8c5e876eee06ff8fdd.png",
-    "static/media/22.jpg": "/lms/static/media/22.a03bb2cc3d0ad5e6e79d.jpg",
-    "static/media/Samim-Bold-FD_p30download.com.woff": "/lms/static/media/Samim-Bold-FD_p30download.com.0fe5d281d61d9bb0e4da.woff",
-    "static/media/Samim-FD_p30download.com.woff": "/lms/static/media/Samim-FD_p30download.com.985f4b947352be5349a4.woff",
-    "static/media/logo.jpg": "/lms/static/media/logo.7101903a9e07b0d59be2.jpg",
-    "static/media/first-high.svg": "/lms/static/media/first-high.394c202a6ff40a92d89783ee1a7269f1.svg",
-    "static/media/map.png": "/lms/static/media/map.b3ad99bde00d7b1efc1b.png",
-    "static/media/lang.svg": "/lms/static/media/lang.ac1d6f4f2cd7fed1ebb6755966a8fe51.svg",
-    "static/media/elementary.svg": "/lms/static/media/elementary.ad23f0430591e7c20993fcfe6e9526d9.svg",
-    "static/media/konkor.svg": "/lms/static/media/konkor.eca700473f6318cc832d2d3f54e33ba9.svg",
-    "static/media/high.svg": "/lms/static/media/high.5a9fbef6b85a35657e1a83118a9bf839.svg",
-    "static/media/university.svg": "/lms/static/media/university.45442611c00dd8046ec23486c2795c7e.svg",
-    "index.html": "/lms/index.html",
-    "main.f237246d.css.map": "/lms/static/css/main.f237246d.css.map",
-    "main.c96def8e.js.map": "/lms/static/js/main.c96def8e.js.map",
-    "787.28cb0dcd.chunk.js.map": "/lms/static/js/787.28cb0dcd.chunk.js.map"
+    "main.css": "/gh-pages/static/css/main.cc0afe28.css",
+    "main.js": "/gh-pages/static/js/main.9dab3d98.js",
+    "static/js/787.28cb0dcd.chunk.js": "/gh-pages/static/js/787.28cb0dcd.chunk.js",
+    "static/media/ax.png": "/gh-pages/static/media/ax.3a8c5e876eee06ff8fdd.png",
+    "static/media/22.jpg": "/gh-pages/static/media/22.a03bb2cc3d0ad5e6e79d.jpg",
+    "static/media/Samim-Bold-FD_p30download.com.woff": "/gh-pages/static/media/Samim-Bold-FD_p30download.com.0fe5d281d61d9bb0e4da.woff",
+    "static/media/Samim-FD_p30download.com.woff": "/gh-pages/static/media/Samim-FD_p30download.com.985f4b947352be5349a4.woff",
+    "static/media/logo.jpg": "/gh-pages/static/media/logo.7101903a9e07b0d59be2.jpg",
+    "static/media/first-high.svg": "/gh-pages/static/media/first-high.394c202a6ff40a92d89783ee1a7269f1.svg",
+    "static/media/map.png": "/gh-pages/static/media/map.b3ad99bde00d7b1efc1b.png",
+    "static/media/lang.svg": "/gh-pages/static/media/lang.ac1d6f4f2cd7fed1ebb6755966a8fe51.svg",
+    "static/media/elementary.svg": "/gh-pages/static/media/elementary.ad23f0430591e7c20993fcfe6e9526d9.svg",
+    "static/media/konkor.svg": "/gh-pages/static/media/konkor.eca700473f6318cc832d2d3f54e33ba9.svg",
+    "static/media/high.svg": "/gh-pages/static/media/high.5a9fbef6b85a35657e1a83118a9bf839.svg",
+    "static/media/university.svg": "/gh-pages/static/media/university.45442611c00dd8046ec23486c2795c7e.svg",
+    "index.html": "/gh-pages/index.html",
+    "main.cc0afe28.css.map": "/gh-pages/static/css/main.cc0afe28.css.map",
+    "main.9dab3d98.js.map": "/gh-pages/static/js/main.9dab3d98.js.map",
+    "787.28cb0dcd.chunk.js.map": "/gh-pages/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f237246d.css",
-    "static/js/main.c96def8e.js"
+    "static/css/main.cc0afe28.css",
+    "static/js/main.9dab3d98.js"
   ]
 }
